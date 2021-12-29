@@ -1,20 +1,7 @@
-import styled from "styled-components/macro";
+import { Example } from "./components/Example";
 
 function App() {
-  return (
-    <Wrapper>
-      example use of <code>styled-component/macro</code>
-    </Wrapper>
-  );
+  return <Example />;
 }
-
-const Wrapper = styled.main`
-  background: maroon;
-  color: white;
-  margin: 1rem auto;
-  max-width: 500px;
-  padding: 1rem;
-  text-align: center;
-`;
 
 export default App;
