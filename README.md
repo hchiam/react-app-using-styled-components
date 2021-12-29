@@ -7,3 +7,7 @@ npx create-react-app react-app; cd react-app; npm install --save styled-componen
 Then edit styles.
 
 Make sure to change `import styled from 'styled-components'` to be `import styled from 'styled-components/macro'` instead.
+
+What went wrong?
+
+![what went wrong?](what-went-wrong.png)
